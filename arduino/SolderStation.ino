@@ -35,8 +35,8 @@
 #define STANDBYin A4
 #define POTI   	A5
 #define TEMPin 	A7
-#define PWMpin 	3
-#define BLpin		5
+#define PWMpin 	6		// Changed in new board design!!
+#define BLpin	5
 
 #define CNTRL_GAIN 10
 
