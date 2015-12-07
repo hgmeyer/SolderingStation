@@ -19,11 +19,11 @@
 
 #define sclk 	13		// Don't change
 #define mosi 	11		// Don't change
-#define cs_tft	10		// 
+#define cs_tft	9		// 
 
 
 //V1.5
-#define dc   	9		// 8
+#define dc   	10		// 8
 #define rst  	12		// 9 
 
 /*
