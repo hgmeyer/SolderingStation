@@ -467,10 +467,10 @@ Single-Supply, MicroPower, MicroAmplifier(TM) Series</description>
 <wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="344.17" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="344.17" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="357.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="343.916" y="4.953" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="344.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="344.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="357.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
 <frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
 </symbol>
 </symbols>
@@ -7734,8 +7734,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <devicesets>
 <deviceset name="78L*" prefix="IC">
 <description>&lt;b&gt;POSITOIV-VOLTAGE REGULATORS&lt;/b&gt;&lt;p&gt;
-Output up to 100 mA&lt;b&gt;
-Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
+Output up to 100 mA&lt;br&gt;
+Source: &lt;a href="http://focus.ti.com/lit/ds/symlink/ua78l05.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="78XX2GND" x="0" y="0"/>
 </gates>
@@ -7754,157 +7754,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <technology name="10"/>
 <technology name="12"/>
 <technology name="15"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="Matthias">
-<packages>
-<package name="AUDIO_JACK_3,5MM">
-<pad name="P_GND" x="0" y="0" drill="1.3" diameter="2.1844"/>
-<pad name="P_LEFT" x="4.25" y="-4.85" drill="1.3" diameter="2.1844"/>
-<pad name="P_G_L" x="11.75" y="-4.35" drill="1.3" diameter="2.1844"/>
-<pad name="P_G_R" x="7.15" y="2" drill="1.3" diameter="2.1844"/>
-<pad name="P_RIGHT" x="8.15" y="4.75" drill="1.3" diameter="2.1844"/>
-<wire x1="-1.2" y1="-5.715" x2="12.865" y2="-5.715" width="0.3048" layer="21"/>
-<wire x1="12.865" y1="-5.715" x2="12.865" y2="5.715" width="0.3048" layer="21"/>
-<wire x1="12.865" y1="5.715" x2="-1.2" y2="5.715" width="0.3048" layer="21"/>
-<wire x1="-1.2" y1="5.715" x2="-1.2" y2="-5.715" width="0.3048" layer="21"/>
-<wire x1="-1.27805" y1="2.74335625" x2="-5.00805" y2="2.74335625" width="0.3048" layer="21"/>
-<wire x1="-5.00805" y1="2.74335625" x2="-5" y2="-3" width="0.3048" layer="21"/>
-<wire x1="-5" y1="-3" x2="-1.27" y2="-3" width="0.3048" layer="21"/>
-<wire x1="-4.97261875" y1="2.708425" x2="-4.3462375" y2="-2.943440625" width="0.3048" layer="21"/>
-<wire x1="-4.34383125" y1="2.73981875" x2="-3.681796875" y2="-2.959203125" width="0.3048" layer="21"/>
-<wire x1="-3.583053125" y1="2.73050625" x2="-2.89725" y2="-3.008765625" width="0.3048" layer="21"/>
-<wire x1="-2.814228125" y1="2.73050625" x2="-2.104275" y2="-2.975028125" width="0.3048" layer="21"/>
-<wire x1="-2.03014375" y1="2.738140625" x2="-1.344340625" y2="-2.974678125" width="0.3048" layer="21"/>
-<text x="10.16" y="3.81" size="1.27" layer="21" font="vector" ratio="13">R</text>
-<text x="6.35" y="-5.08" size="1.27" layer="21" font="vector" ratio="13">L</text>
-<text x="1.905" y="-0.635" size="1.27" layer="21" font="vector" ratio="13">GND</text>
-</package>
-<package name="AUDIO_JACK_3,5MM_NEW">
-<pad name="P_GND" x="5.08" y="0" drill="1.6" diameter="2.54"/>
-<pad name="P_LEFT" x="9.33" y="-4.85" drill="1.6" diameter="2.54"/>
-<pad name="P_G_L" x="16.83" y="-4.35" drill="1.6" diameter="2.54"/>
-<pad name="P_G_R" x="12.23" y="2" drill="1.6" diameter="2.54"/>
-<pad name="P_RIGHT" x="13.23" y="4.75" drill="1.6" diameter="2.54"/>
-<wire x1="3.88" y1="-5.715" x2="17.945" y2="-5.715" width="0.3048" layer="21"/>
-<wire x1="17.945" y1="-5.715" x2="17.945" y2="5.715" width="0.3048" layer="21"/>
-<wire x1="17.945" y1="5.715" x2="3.88" y2="5.715" width="0.3048" layer="21"/>
-<wire x1="3.88" y1="5.715" x2="3.88" y2="-5.715" width="0.3048" layer="21"/>
-<wire x1="3.80195" y1="2.74335625" x2="0.07195" y2="2.74335625" width="0.3048" layer="21"/>
-<wire x1="0.07195" y1="2.74335625" x2="0.08" y2="-3" width="0.3048" layer="21"/>
-<wire x1="0.08" y1="-3" x2="3.81" y2="-3" width="0.3048" layer="21"/>
-<wire x1="0.10738125" y1="2.708425" x2="0.7337625" y2="-2.943440625" width="0.3048" layer="21"/>
-<wire x1="0.73616875" y1="2.73981875" x2="1.398203125" y2="-2.959203125" width="0.3048" layer="21"/>
-<wire x1="1.496946875" y1="2.73050625" x2="2.18275" y2="-3.008765625" width="0.3048" layer="21"/>
-<wire x1="2.265771875" y1="2.73050625" x2="2.975725" y2="-2.975028125" width="0.3048" layer="21"/>
-<wire x1="3.04985625" y1="2.738140625" x2="3.735659375" y2="-2.974678125" width="0.3048" layer="21"/>
-<text x="15.24" y="3.81" size="1.27" layer="21" font="vector" ratio="13">R</text>
-<text x="11.43" y="-5.08" size="1.27" layer="21" font="vector" ratio="13">L</text>
-<text x="6.985" y="-0.635" size="1.27" layer="21" font="vector" ratio="13">GND</text>
-</package>
-<package name="AUDIO_JACK_3,5MM_CONRAD">
-<pad name="P_GND" x="0" y="0" drill="1.6" diameter="2.54"/>
-<pad name="P_LEFT" x="4.8" y="-4.8" drill="1.6" diameter="2.54"/>
-<pad name="P_G_L" x="11.3" y="-4.3" drill="1.6" diameter="2.54"/>
-<pad name="P_G_R" x="7.1" y="2.3" drill="1.6" diameter="2.54"/>
-<pad name="P_RIGHT" x="8.1" y="5" drill="1.6" diameter="2.54"/>
-<wire x1="-1.7" y1="-5.5" x2="12.5" y2="-5.5" width="0.3048" layer="21"/>
-<wire x1="12.5" y1="-5.5" x2="12.5" y2="6" width="0.3048" layer="21"/>
-<wire x1="12.5" y1="6" x2="-1.7" y2="6" width="0.3048" layer="21"/>
-<wire x1="-1.7" y1="6" x2="-1.7" y2="3" width="0.3048" layer="21"/>
-<wire x1="-1.7" y1="3" x2="-1.7" y2="-3" width="0.3048" layer="21"/>
-<wire x1="-1.7" y1="-3" x2="-1.7" y2="-5.5" width="0.3048" layer="21"/>
-<wire x1="-1.7" y1="3" x2="-5.2" y2="3" width="0.3048" layer="21"/>
-<wire x1="-5.2" y1="3" x2="-5.2" y2="-3" width="0.3048" layer="21"/>
-<wire x1="-5.2" y1="-3" x2="-1.7" y2="-3" width="0.3048" layer="21"/>
-<wire x1="-4.72483125" y1="2.86681875" x2="-4.062796875" y2="-2.832203125" width="0.3048" layer="21"/>
-<wire x1="-3.964053125" y1="2.85750625" x2="-3.27825" y2="-2.881765625" width="0.3048" layer="21"/>
-<wire x1="-3.195228125" y1="2.85750625" x2="-2.485275" y2="-2.848028125" width="0.3048" layer="21"/>
-<wire x1="-2.41114375" y1="2.865140625" x2="-1.725340625" y2="-2.847678125" width="0.3048" layer="21"/>
-<text x="9.779" y="4.572" size="1.27" layer="21" font="vector" ratio="13">R</text>
-<text x="6.604" y="-4.953" size="1.27" layer="21" font="vector" ratio="13">L</text>
-<text x="1.524" y="-0.508" size="1.27" layer="21" font="vector" ratio="13">GND</text>
-</package>
-</packages>
-<symbols>
-<symbol name="AUDIO_JACK">
-<pin name="P$1" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
-<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<pin name="P$3" x="5.08" y="-5.08" visible="off" length="short" rot="R180"/>
-<pin name="P$4" x="5.08" y="-7.62" visible="off" length="short" rot="R180"/>
-<pin name="P$5" x="5.08" y="-12.7" visible="off" length="short" rot="R180"/>
-<wire x1="2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-6.604" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="1.524" x2="-0.508" y2="1.016" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="1.016" x2="0.508" y2="1.016" width="0.254" layer="94"/>
-<wire x1="0.508" y1="1.016" x2="0" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="-6.604" x2="0.508" y2="-6.096" width="0.254" layer="94"/>
-<wire x1="0.508" y1="-6.096" x2="-0.508" y2="-6.096" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-6.096" x2="0" y2="-6.604" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-10.16" x2="-13.716" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-13.716" y1="-10.16" x2="-13.716" y2="3.302" width="0.254" layer="94"/>
-<wire x1="-13.716" y1="3.302" x2="-16.51" y2="3.302" width="0.254" layer="94"/>
-<wire x1="-16.51" y1="3.302" x2="-16.51" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-16.51" y1="-10.16" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
-<text x="1.016" y="3.302" size="1.778" layer="94" font="vector" ratio="13">R</text>
-<text x="0.762" y="-4.318" size="1.778" layer="94" font="vector" ratio="13">L</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AUDIO_JACK_3,5MM">
-<gates>
-<gate name="G$1" symbol="AUDIO_JACK" x="2.54" y="2.54"/>
-</gates>
-<devices>
-<device name="&quot;" package="AUDIO_JACK_3,5MM">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P_RIGHT"/>
-<connect gate="G$1" pin="P$2" pad="P_G_R"/>
-<connect gate="G$1" pin="P$3" pad="P_G_L"/>
-<connect gate="G$1" pin="P$4" pad="P_LEFT"/>
-<connect gate="G$1" pin="P$5" pad="P_GND"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="BIGGER" package="AUDIO_JACK_3,5MM_NEW">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P_RIGHT"/>
-<connect gate="G$1" pin="P$2" pad="P_G_R"/>
-<connect gate="G$1" pin="P$3" pad="P_G_L"/>
-<connect gate="G$1" pin="P$4" pad="P_LEFT"/>
-<connect gate="G$1" pin="P$5" pad="P_GND"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CONRAD" package="AUDIO_JACK_3,5MM_CONRAD">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P_RIGHT"/>
-<connect gate="G$1" pin="P$2" pad="P_G_R"/>
-<connect gate="G$1" pin="P$3" pad="P_G_L"/>
-<connect gate="G$1" pin="P$4" pad="P_LEFT"/>
-<connect gate="G$1" pin="P$5" pad="P_GND"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -9986,6 +9835,65 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="alvarop-lib">
+<packages>
+<package name="35RASMT2BHNTRX">
+<smd name="P$1" x="-2.44" y="3.675" dx="2.55" dy="2.4" layer="1" rot="R90"/>
+<smd name="P$2" x="4.96" y="-3.675" dx="2.55" dy="2.9" layer="1" rot="R90"/>
+<smd name="P$3" x="-4.7" y="-3.675" dx="2.55" dy="2.4" layer="1" rot="R90"/>
+<hole x="-3.5" y="0" drill="1.6"/>
+<hole x="3.5" y="0" drill="1.6"/>
+<wire x1="2.5" y1="-3.5" x2="-2.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="3.5" x2="8" y2="3.5" width="0.127" layer="21"/>
+<wire x1="8" y1="3.5" x2="8" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="8" y1="-3.5" x2="7.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="-2" x2="-8.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-8.5" y1="-2" x2="-8.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-8.5" y1="2" x2="-6.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="2" x2="-6.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="3.5" x2="-4.5" y2="3.5" width="0.127" layer="21"/>
+<text x="-9" y="6" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="3.5MM-F">
+<wire x1="-7.62" y1="-2.54" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="-8.89" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="P$2" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$3" x="10.16" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="35RASMT2BHNTRX">
+<gates>
+<gate name="G$1" symbol="3.5MM-F" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="35RASMT2BHNTRX">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10035,7 +9943,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP2" library="SparkFun" deviceset="M02" device="LOCK_LONGPADS" value="POWER_SWITCH"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="U$2" library="Matthias" deviceset="AUDIO_JACK_3,5MM" device="CONRAD"/>
 <part name="P+10" library="supply" deviceset="+5V" device=""/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
 <part name="T3" library="bsn20" deviceset="BSN20" device=""/>
@@ -10074,6 +9981,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND7" library="supply" deviceset="DGND" device=""/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="P+7" library="supply" deviceset="+5V" device=""/>
+<part name="U$1" library="alvarop-lib" deviceset="35RASMT2BHNTRX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10128,7 +10036,7 @@ Jack</text>
 <instance part="P+5" gate="1" x="170.18" y="40.64"/>
 <instance part="C7" gate="G$1" x="139.7" y="30.48"/>
 <instance part="P+6" gate="1" x="109.22" y="40.64"/>
-<instance part="GND6" gate="1" x="322.58" y="200.66"/>
+<instance part="GND6" gate="1" x="309.88" y="218.44" rot="R180"/>
 <instance part="P+4" gate="1" x="185.42" y="142.24"/>
 <instance part="JP2" gate="G$1" x="93.98" y="45.72" smashed="yes" rot="R270">
 <attribute name="VALUE" x="86.36" y="50.8" size="1.778" layer="96"/>
@@ -10136,7 +10044,6 @@ Jack</text>
 </instance>
 <instance part="C5" gate="G$1" x="160.02" y="30.48"/>
 <instance part="R11" gate="G$1" x="152.4" y="96.52" rot="R270"/>
-<instance part="U$2" gate="G$1" x="330.2" y="218.44" rot="MR0"/>
 <instance part="P+10" gate="1" x="309.88" y="160.02"/>
 <instance part="R13" gate="G$1" x="33.02" y="220.98" rot="R270"/>
 <instance part="T3" gate="G$1" x="261.62" y="215.9"/>
@@ -10178,6 +10085,7 @@ Jack</text>
 <instance part="GND7" gate="1" x="256.54" y="63.5"/>
 <instance part="R22" gate="G$1" x="246.38" y="66.04" rot="R90"/>
 <instance part="P+7" gate="1" x="246.38" y="55.88" rot="R180"/>
+<instance part="U$1" gate="G$1" x="337.82" y="208.28" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -10244,10 +10152,11 @@ Jack</text>
 <wire x1="335.28" y1="134.62" x2="309.88" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="205.74" x2="322.58" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="205.74" x2="322.58" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="213.36" x2="309.88" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="213.36" x2="309.88" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="DGND"/>
-<pinref part="U$2" gate="G$1" pin="P$5"/>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<junction x="327.66" y="213.36"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
@@ -10491,9 +10400,10 @@ Jack</text>
 <junction x="33.02" y="213.36"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="220.98" x2="312.42" y2="220.98" width="0.1524" layer="91"/>
-<label x="312.42" y="220.98" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
+<wire x1="327.66" y1="203.2" x2="309.88" y2="203.2" width="0.1524" layer="91"/>
+<label x="309.88" y="203.2" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<junction x="327.66" y="203.2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -10875,9 +10785,10 @@ Jack</text>
 </net>
 <net name="HEAT" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$4"/>
-<wire x1="312.42" y1="210.82" x2="325.12" y2="210.82" width="0.1524" layer="91"/>
-<label x="312.42" y="210.82" size="1.778" layer="95"/>
+<wire x1="309.88" y1="210.82" x2="327.66" y2="210.82" width="0.1524" layer="91"/>
+<label x="309.88" y="210.82" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<junction x="327.66" y="210.82"/>
 </segment>
 <segment>
 <wire x1="182.88" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
